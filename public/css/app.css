@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  position: relative;
+}
+nav::after {
+  content: "";
+  width: 73%;
+  height: 2px;
+  background-color: #F4F4F4;
+  position: absolute;
+  top: 90px;
+}
+nav .leftnav {
+  padding-right: 450px;
+}
+nav .leftnav img {
+  width: 150px;
+  padding-right: 50px;
+}
+nav .leftnav a {
+  text-decoration: none;
+  color: #bbb8b8;
+  font-weight: bold;
+  padding-right: 20px;
+}
+nav .rightnav .chart {
+  padding-bottom: 15px;
+}
+nav .rightnav .profil {
+  width: 50px;
+  padding-left: 30px;
+}/*# sourceMappingURL=app.css.map */

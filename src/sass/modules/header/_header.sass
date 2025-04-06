@@ -1,0 +1,36 @@
+nav
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-top: 15px
+    position: relative
+    &::after
+        content: ""
+        width: 73%
+        height: 2px
+        background-color: #F4F4F4
+        position: absolute
+        top: 90px
+
+    // left
+    .leftnav
+        padding-right: 450px
+
+    .leftnav
+        img
+            width: 150px
+            padding-right: 50px
+        a
+            text-decoration: none
+            color: $mygrey
+            font-weight: bold
+            padding-right: 20px
+
+    // right
+    .rightnav
+        .chart
+            padding-bottom: 15px
+
+        .profil
+            width: 50px
+            padding-left: 30px
