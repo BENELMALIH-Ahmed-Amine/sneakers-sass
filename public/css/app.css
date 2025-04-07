@@ -52,7 +52,7 @@ article .images {
   align-items: center;
   flex-direction: column;
   width: 400px;
-  padding-right: 100px;
+  padding-right: 200px;
 }
 article .images img {
   border-radius: 15px;
@@ -122,6 +122,38 @@ article .info .foot h5::after {
   border-radius: 5px;
   position: absolute;
   padding: 4px 0 3px 5px;
-  left: 90px;
+  left: 85px;
   top: 5px;
+}
+article .info .foot .buttons, article .info .foot .stock {
+  display: flex;
+}
+article .info .foot .buttons button, article .info .foot .stock button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: #F7F8FD;
+  border-radius: 10px;
+  font-size: 15px;
+}
+article .info .foot .buttons .stock textarea, article .info .foot .stock .stock textarea {
+  width: 35px;
+  height: 22px;
+  border: none;
+  background: #F7F8FD;
+  padding-top: 12px;
+  text-align: center;
+}
+article .info .foot .buttons .add, article .info .foot .stock .add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #E97E2F;
+  font-size: 14px;
+  margin-left: 20px;
+}
+article .info .foot .buttons .add svg, article .info .foot .stock .add svg {
+  padding-right: 12px;
+  width: 18px;
 }/*# sourceMappingURL=app.css.map */
