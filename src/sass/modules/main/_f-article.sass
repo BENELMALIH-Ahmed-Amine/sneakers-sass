@@ -1,0 +1,38 @@
+article
+    @include center
+    padding-top: 80px
+
+    // first section (images)
+    .images
+        @include center
+        flex-direction: column
+        width: 400px
+        padding-right: 100px
+        
+        img
+            border-radius: 15px
+
+        .bigimg
+            width: 100%
+            img
+                width: 100%
+
+        .litlimgs
+            @include center
+            justify-content: space-between
+            width: 100%
+            border-radius: 15px
+            padding-top: 30px
+
+            .litlimg
+                width: 80px
+                img
+                    width: 100%
+                    height: 100%
+
+                    &:hover
+                        border: 2px solid $myorange
+
+    // seconde section (info)
+    .info
+        width: 500px

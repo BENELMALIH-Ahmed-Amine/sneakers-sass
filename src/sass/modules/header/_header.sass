@@ -1,16 +1,14 @@
 nav
-    display: flex
-    justify-content: center
-    align-items: center
-    padding-top: 15px
+    @include center
+    padding-top: 10px
     position: relative
     &::after
         content: ""
-        width: 73%
+        width: 72%
         height: 2px
         background-color: #F4F4F4
         position: absolute
-        top: 90px
+        top: 70px
 
     // left
     .leftnav
@@ -18,7 +16,7 @@ nav
 
     .leftnav
         img
-            width: 150px
+            width: 120px
             padding-right: 50px
         a
             text-decoration: none
@@ -29,8 +27,9 @@ nav
     // right
     .rightnav
         .chart
-            padding-bottom: 15px
+            width: 20px
+            padding-bottom: 12px
 
         .profil
-            width: 50px
+            width: 45px
             padding-left: 30px
